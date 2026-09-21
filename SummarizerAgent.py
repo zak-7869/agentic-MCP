@@ -16,7 +16,7 @@ mcp = FastMCP("summarizer-agent")
 os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 
 # Initialize LLM (Ensure GROQ_API_KEY is in your .env)
-llm = ChatGroq(model="llama-3.3-70b-versatile")
+llm = ChatGroq(model="openai/gpt-oss-120b")
 
 @mcp.tool()
 async def summarize_text(content: str) -> str:
