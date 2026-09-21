@@ -1,0 +1,10 @@
+ fastmcp 
+ langchain-groq 
+ langchain-community 
+ duckduckgo-search 
+ python-dotenv
+ langchain-mcp-adapters
+ ddgs
+ langchain
+ langchain-classic
+ langchain-text-splitters
