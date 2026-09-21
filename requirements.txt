@@ -9,3 +9,6 @@
  langchain
  langchain-classic
  langchain-text-splitters
+
+
+"mcp<2.0.0"
