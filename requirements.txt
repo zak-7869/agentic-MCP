@@ -1,3 +1,4 @@
+ uv
  fastmcp 
  langchain-groq 
  langchain-community 
